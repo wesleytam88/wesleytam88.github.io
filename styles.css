@@ -230,15 +230,25 @@ main {
   background-color: var(--cg-light-grey);
 }
 
-.resume {
+.resume-download {
+  color: var(--cg-light-grey);
+}
+
+.resume-download a {
   color: var(--cg-grey);
+  text-decoration: underline;
   font-family: Georgia;
 }
 
-.resume-download a:hover,
-.resume-download a:active {
-  text-decoration: none;
+.resume-download a:hover {
   color: var(--cg-light-grey);
+  text-decoration: underline;
+  font-family: Georgia;
+}
+
+.resume {
+  color: var(--cg-grey);
+  font-family: Georgia;
 }
 
 .resume h2 {
