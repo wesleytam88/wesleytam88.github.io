@@ -305,7 +305,8 @@ form {
   display: flex;
   flex-direction: row;
   background-color: var(--cg-blue-gunmetal);
-  padding-left: 1%;
+  padding-inline: 1%;
+  justify-content: space-between;
 }
 
 .blog-title {
