@@ -335,6 +335,12 @@ form {
   font-size: 24px;
 }
 
+.blog a:hover,
+a:active,
+a:visited {
+  color: var(--cg-light-grey);
+}
+
 /* CSS for footer */
 
 .footer {
